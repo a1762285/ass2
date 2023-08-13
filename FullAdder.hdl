@@ -6,5 +6,4 @@ CHIP FullAdder {
     PARTS:
     HalfAdder(a=a, b=b, sum=ab, carry=cab);
     HalfAdder(a=c, b=ab, sum=sum, carry=s);
-    Or(a=cab, b=s, out=carry);
-}
+    Or(a=cab, b=s, out=carry);}
