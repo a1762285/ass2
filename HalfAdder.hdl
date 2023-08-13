@@ -3,6 +3,6 @@ CHIP HalfAdder {
     OUT sum, carry;
 
     PARTS:
-    Xor(a=a, b=b, out=sum);
-    And(a=a, b=b, out=andResult);
-    Not(in=andResult, out=carry);}
+    XOR(a=a, b=b, out=sum);
+    AND(a=a, b=b, out=carry);
+}
